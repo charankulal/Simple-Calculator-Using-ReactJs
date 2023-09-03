@@ -168,7 +168,7 @@ function App() {
         <tr className="py-2">
           <td className="col-3">
             <button
-              className="btn btn-outline-danger col-12 m-2"
+              className="btn btn-outline-danger col-12 mx-1"
               onClick={() => dispatch({ type: ACTIONS.CLEAR })}
             >
               AC
@@ -176,7 +176,7 @@ function App() {
           </td>
           <td className="col-3">
             <button
-              className="btn btn-outline-warning col-12 m-2"
+              className="btn btn-outline-warning col-12 mx-1"
               onClick={() => dispatch({ type: ACTIONS.DELETE_DIGIT })}
             >
               DEL
@@ -234,7 +234,7 @@ function App() {
 
           <td rowSpan="2">
             <button
-              className="btn btn-outline-success col-12 m-2"
+              className="btn btn-outline-success col-12 mx-1"
               onClick={() => dispatch({ type: ACTIONS.EVALUATE })}
               style={{ height: "120px" }}
             >
